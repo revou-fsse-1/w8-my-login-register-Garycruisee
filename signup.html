@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Website - LoginPage" />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="signup.css" />
+    <link rel="icon" href="/assets/cloud.png" />
+    <title>Sign Up</title>
+    <script
+      src="https://kit.fontawesome.com/ebafe5899b.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="signup.js" defer></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="form-box">
+        <h1 id="title">Sign Up</h1>
+        <form>
+          <div class="input-group">
+            <div class="input-field">
+              <i class="fa-solid fa-envelope"></i>
+              <input type="email" id="name" placeholder="Username" required />
+            </div>
+
+            <div class="input-field">
+              <i class="fa-solid fa-lock"></i>
+              <input type="password" id="pw" placeholder="Password" required />
+            </div>
+            <ul class="helper-text">
+              <li class="length">Must be at least 8 characters long.</li>
+              <li class="lowercase">Must contain a lowercase letter.</li>
+              <li class="uppercase">Must contain an uppercase letter.</li>
+            </ul>
+
+            <p>Already have account?<a href="/signin.html"> Click Here!</a></p>
+          </div>
+
+          <div class="btn-field">
+            <button
+              id="signupBtn"
+              type="submit"
+              value="Register"
+              onclick="store()"
+            >
+              Sign Up
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

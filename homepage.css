@@ -1,0 +1,63 @@
+input[type="text"] {
+  font-size: 16px;
+  padding: 15px;
+  width: 20%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #008080;
+}
+
+.tambah-data {
+  padding: 18px;
+  margin-left: 10px;
+  background-color: orange;
+  color: white;
+}
+
+.delete {
+  background-color: red;
+  color: white;
+}
+
+.edit {
+  background-color: #3a98b9;
+  color: white;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  margin-top: 20px;
+  width: 100%;
+}
+
+th {
+  padding: 20px;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th,
+td {
+  padding: 10px;
+}
+
+button {
+  padding: 10px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

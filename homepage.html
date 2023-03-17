@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="homepage.css" />
+    <title>Homepage</title>
+  </head>
+  <body>
+    <form>
+      <input type="text" id="inputName" placeholder="Nama" />
+      <input type="text" id="inputAge" placeholder="Umur" />
+      <input type="text" id="inputEmail" placeholder="Email" />
+      <button class="tambah-data" type="button" onclick="addData()">
+        Tambah Data
+      </button>
+    </form>
+
+    <div class="container">
+      <table id="dataTable">
+        <thead>
+          <tr>
+            <th>Nama</th>
+            <th>Umur</th>
+            <th>Email</th>
+            <th>Aksi</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <script src="homepage.js"></script>
+  </body>
+</html>

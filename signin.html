@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Website - LoginPage" />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="signup.css" />
+    <link rel="icon" href="/assets/cloud.png" />
+    <title>Sign In</title>
+    <script
+      src="https://kit.fontawesome.com/ebafe5899b.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/signin.js" defer></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="form-box">
+        <h1 id="title">Sign In</h1>
+        <form>
+          <div class="input-group">
+            <div class="input-field">
+              <i class="fa-solid fa-envelope"></i>
+              <input
+                type="email"
+                id="userName"
+                placeholder="Username"
+                required
+              />
+            </div>
+
+            <div class="input-field">
+              <i class="fa-solid fa-lock"></i>
+              <input
+                type="password"
+                id="userPw"
+                placeholder="Password"
+                required
+              />
+            </div>
+
+            <p>Create an account?<a href="/signup.html"> Click Here!</a></p>
+          </div>
+
+          <div class="btn-field">
+            <button
+              id="signinBtn"
+              type="submit"
+              value="Login"
+              onclick="check()"
+            >
+              Sign In
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
